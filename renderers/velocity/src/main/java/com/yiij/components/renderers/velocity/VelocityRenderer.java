@@ -12,9 +12,9 @@ import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;
 import com.yiij.base.interfaces.IContext;
 import com.yiij.web.BaseController;
 import com.yiij.web.WebApplicationComponent;
-import com.yiij.web.interfaces.IPluginViewRenderer;
+import com.yiij.web.interfaces.IApplicationViewRenderer;
 
-public class VelocityRenderer extends WebApplicationComponent implements IPluginViewRenderer
+public class VelocityRenderer extends WebApplicationComponent implements IApplicationViewRenderer
 {
 	public VelocityRenderer(IContext context)
 	{

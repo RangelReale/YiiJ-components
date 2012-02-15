@@ -12,9 +12,9 @@ import java.util.Map;
 import com.yiij.base.interfaces.IContext;
 import com.yiij.web.BaseController;
 import com.yiij.web.WebApplicationComponent;
-import com.yiij.web.interfaces.IPluginViewRenderer;
+import com.yiij.web.interfaces.IApplicationViewRenderer;
 
-public class GroovyRenderer extends WebApplicationComponent implements IPluginViewRenderer
+public class GroovyRenderer extends WebApplicationComponent implements IApplicationViewRenderer
 {
 	public GroovyRenderer(IContext context)
 	{
