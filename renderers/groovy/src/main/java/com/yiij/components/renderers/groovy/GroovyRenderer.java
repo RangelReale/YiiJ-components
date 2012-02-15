@@ -34,6 +34,7 @@ public class GroovyRenderer extends WebApplicationComponent implements IApplicat
 		SimpleTemplateEngine engine = new SimpleTemplateEngine();
 		
 		Map<String, Object> makedata = new HashMap<String, Object>();
+		makedata.put("this", controller);
 		makedata.put("data", data);
 		
 		Writable template = engine.createTemplate(new BufferedReader(new InputStreamReader(Object.class.getResourceAsStream(file)))).

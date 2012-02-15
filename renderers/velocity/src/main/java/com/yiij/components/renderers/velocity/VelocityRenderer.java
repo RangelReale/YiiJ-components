@@ -37,6 +37,7 @@ public class VelocityRenderer extends WebApplicationComponent implements IApplic
 		ve.init();
 		
 		VelocityContext context = new VelocityContext();
+		context.put("this", controller);
 		context.put("data", data);
 		
 		Template t = ve.getTemplate(file);
