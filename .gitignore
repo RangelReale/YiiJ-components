@@ -7,3 +7,7 @@
 /renderers/groovy/.project
 /renderers/groovy/target
 /renderers/groovy/.settings
+/renderers/jmte/target
+/renderers/jmte/.settings
+/renderers/jmte/.classpath
+/renderers/jmte/.project
